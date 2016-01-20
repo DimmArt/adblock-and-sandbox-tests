@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sandbox test page</title>
+
+    <style>
+        iframe {
+            width: 100%;
+            border: 1px solid grey;
+            margin-bottom: 15px;
+        }
+    </style>
+
+</head>
+<body>
+    <span>
+        <b>Sandboxed iframe:</b>
+    </span>
+    <iframe src="index.html" sandbox="allow-scripts"></iframe>
+
+    <span>
+        <b>Not sandboxed iframe:</b>
+    </span>
+    <iframe src="index.html"></iframe>
+</body>
+</html>
