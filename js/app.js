@@ -49,4 +49,4 @@ var Application = {
 
         console.log('Sandbox is not enabled');
     }
-}
+};
